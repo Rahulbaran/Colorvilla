@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author name" content= "Rahul Kumar">
+    <meta name="Copyright" content = "reserved by author">
+    <meta name="description" content="This is a web app where someone can generate random color and can copy the corresponding color values in rgb, hsl and hexadecimal form.">
+    <meta name="keywords" content="Random Color Generator, Color Codes, hsl, rgb, hexadecimal">
+
+    <!---------App title-------->
+    <title>Colorvilla || Random Color Generator</title>
+
+    <!---------google fonts-------->
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@600;700&family=Lato:wght@300;400;700&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+
+    <!---------font awesome stylesheet-------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- favicon of the app -->
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+
+    <!----------Custom style sheet-------->
+    <link rel="stylesheet" href="CSS/main.css">
+
+    <!-- Here I have used the BEM Convention to name the class selectors -->
+</head>
+<body>
+
+
+    <!--------app header------->
+    <header class="header">
+
+        <!---------app logo---------->
+        <div class="logo__container">
+            <a href="#">
+                <h1 class="logo">
+                    C<span class="_2nd_letter">o</span><span class="_3rd_letter">l</span><span class="_4th_letter">o</span><span class="_5th_letter">r</span><span class="logo__part">villa</span>
+                </h1>
+            </a>
+        </div>
+
+    </header>
+
+
+
+    <!-------main section of app------->
+    <main class="main--container" role="main">
+
+
+        <div class="title__section">
+            <h2 class="title">Random Color Generator</h2>
+        </div>
+
+        <!--------Color related section------->
+        <div class="color__section">
+
+            <div class="color__generator__section">
+                <div class="color__screen__section"></div>
+
+                <!-- Color code generator button -->
+                <div class="generator__btn__section">
+                    <button class="btn__orange btn__big">Generate Color</button>
+                </div>
+            </div>
+
+            <!-- Color code section -->
+            <div class="color__code__section">
+
+                <div class="hsl__color__code color__code">
+                    <div class="code__title">
+                        <h3>HSL</h3>
+                        <button class="copy__btn" title="Click to copy"><i class="fas fa-copy"></i></button>
+                    </div>
+                    <div class="code__text">
+                        <input type="text" disabled value="hsl(0deg,0%,100%)" class="hsl__code">
+                    </div>
+                </div>
+
+                <div class="rgb__color__code color__code">
+                    <div class="code__title">
+                        <h3>RGB</h3>
+                        <button class="copy__btn" title="Click to copy"><i class="fas fa-copy"></i></button>
+                    </div>
+                    <div class="code__text">
+                        <input type="text" disabled value="rgb(255,255,255)" class="rgb__code">
+                    </div>
+                </div>
+
+                <div class="hex__color__code color__code">
+                    <div class="code__title">
+                        <h3>Hex</h3>
+                        <button class="copy__btn" title="Click to copy"><i class="fas fa-copy"></i></button>
+                    </div>
+                    <div class="code__text">
+                        <input type="text" disabled value="#ffffff" class="hex__code">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+    <!-------Footer of the page------->
+    <footer class="footer">
+
+        <div class="social__container">
+            <p>Follow me on <a href="" target="_blank" rel="noreferrer noopener" class="twitter__link">twitter</a></p>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; Copyright reserved by SPARSM</p>
+        </div>
+
+    </footer>
+
+
+
+    <!------------External Script file----------->
+    <script src="JS/main.js"></script>
+
+</body>
+</html>
