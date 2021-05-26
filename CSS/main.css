@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Ubuntu:wght@400;500;700&display=swap');
+
 html {
     scroll-behavior:smooth;
 }
@@ -11,7 +13,7 @@ html {
 
 body {
     font:400 1rem/1.4 'Ubuntu',sans-serif;
-    background-image: repeating-linear-gradient(157.5deg, rgb(255,255,255) 0px, rgb(255,255,255) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(67.5deg, rgb(255,255,255) 0px, rgb(255,255,255) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(131,84%,17%),hsl(131,84%,17%));
+    background-image: repeating-linear-gradient(45deg, rgb(255,255,255) 0px, rgb(255,255,255) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(135deg, rgb(255,255,255) 0px, rgb(255,255,255) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(256,7%,84%),hsl(256,7%,84%));
     background-color:rgb(236, 236, 236);
 }
 
@@ -43,11 +45,12 @@ body {
 /* ======app logo====== */
 .logo__container a {
     text-decoration:none;
-    font-family:'KoHo',sans-serif;
+    font-family:'Pangolin', cursive;
     letter-spacing:1px;
     color:#000;
     display:inline-block;
-    padding:.2em;
+    padding:.25em;
+    text-shadow:2px 2px 4px rgba(0,0,0,.2);
 }
 
 .logo {
@@ -75,7 +78,6 @@ body {
 }
 
 .logo__part {
-    font-family:cursive,sans-serif;
     font-weight:600;
     color:rgb(10, 10, 56);
     margin-left:4px;
@@ -100,18 +102,19 @@ body {
 
 .title {
     font-size:var(--title-size);
-    color:rgb(218, 93, 10);
+    color:rgb(255, 123, 35);
     border-bottom:2px dashed currentColor;
 }
 
 .color__section {
     margin-top:1em;
-    font-family:'Lato',sans-serif;
+    font-family:'Poppins',sans-serif;
     display:flex;
     flex-direction:column;
     align-items:Center;
     width:100%;
 }
+
 .color__generator__section {
     width:100%;
 }
@@ -121,7 +124,7 @@ body {
     margin:0 auto;
     margin-bottom:1.2em;
     height:250px;
-    box-shadow:0 0 3px rgba(0,0,0,.3);
+    box-shadow:0 0 10px rgba(0,0,0,.1);
     border-radius:5px;
     background-color:#fff;
 }
@@ -156,7 +159,7 @@ body {
 .btn__orange:focus {
     cursor:pointer;
     box-shadow:0 0 10px rgba(0,0,0,.4);
-    transform:scale(1.1);
+    transform:scale(1.07);
     transition:600ms ease-out;
 }
 
@@ -222,9 +225,9 @@ i.fa-copy:focus {
 
 /* ========footer section======== */
 .footer {
-    border-top:2px dashed rgb(10, 10, 10);
+    border-top:2px dashed rgb(49, 49, 49);
     padding-top:1.5em;
-    font-family:'Lato',sans-serif;
+    font-family:'Poppins',sans-serif;
     font-weight:600;
 }
 
@@ -253,7 +256,7 @@ i.fa-copy:focus {
 }
 
 .copyright {
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(255, 252, 238);
     color:rgb(218, 93, 10);
     text-align:Center;
     padding:1em .5em;
