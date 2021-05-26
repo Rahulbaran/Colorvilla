@@ -35,7 +35,7 @@ body {
 .header {
     --logo-size:1.8rem;
 
-    padding:1em 1.5em;
+    padding:.4em 1.5em;
     margin-bottom:1em;
     box-shadow:0 0 5px rgba(0,0,0,.2);
 }
@@ -47,7 +47,7 @@ body {
     letter-spacing:1px;
     color:#000;
     display:inline-block;
-    padding:.3em;
+    padding:.2em;
 }
 
 .logo {
@@ -127,8 +127,8 @@ body {
 }
 
 .generator__btn__section {
-    --padding-y:.65em;
-    --padding-x:1.5em;
+    --padding-y:.73em;
+    --padding-x:1.6em;
     text-align:Center;
     margin-bottom:1.5em;
 }
@@ -145,7 +145,7 @@ body {
     padding:var(--padding-y) var(--padding-x);
     font-weight:700;
     font-family:'KoHo',sans-serif;
-    font-size:.85rem;
+    font-size:.9rem;
     text-transform:uppercase;
     letter-spacing:.7px;
     box-shadow:0 0 5px rgba(0,0,0,.4);
@@ -172,6 +172,10 @@ body {
     margin:.5em 1em 1.3em;
     background-color:#fff;
     box-shadow:2px 2px 3px rgba(0,0,0,.2),-2px 0 3px rgba(0,0,0,.2);
+}
+
+.hex__code {
+    text-transform:uppercase;
 }
 
 .code__title {
@@ -207,7 +211,7 @@ i.fa-copy:focus {
 .code__text input {
     padding:.9em .2em;
     text-align:Center;
-    font-size:.9rem;
+    font-size:.91rem;
     background-color:#fff;
     border:none;
     outline:none;
@@ -239,7 +243,7 @@ i.fa-copy:focus {
     font-family:'Ubuntu',sans-serif;
     margin-left:.5em;
     letter-spacing:.7px;
-    border-radius:3px;
+    border-radius:4px;
     box-shadow:0 0 3px rgba(0,0,0,.4);
 }
 
@@ -280,8 +284,8 @@ i.fa-copy:focus {
         font-size:1.15rem;
     }
     .code__text input {
-        font-size:1rem;
-        padding:.85em .4em;
+        font-size:.97rem;
+        padding:.85em .6em;
     }
 }
 
